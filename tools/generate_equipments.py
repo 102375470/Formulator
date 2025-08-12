@@ -6,7 +6,7 @@ from assets.constant import *
 from kungfus import SUPPORT_KUNGFU
 from tools import *
 
-KINDS = set(sum([[kungfu.kind, kungfu.major] for kungfu in SUPPORT_KUNGFU.values()], []))
+KINDS = set(sum([[kungfu.kind, kungfu.major] for kungfu in SUPPORT_KUNGFU.values()], []) + ["治疗"])
 SCHOOLS = set(["精简", "通用"] + [kungfu.school for kungfu in SUPPORT_KUNGFU.values()])
 
 QUALITY_COF = {

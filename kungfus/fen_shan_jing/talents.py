@@ -18,7 +18,8 @@ TALENTS: List[Dict[int, Gain]] = [
         21281: Gain("嗜血")
     },
     {
-        22897: Gain("锋鸣", buff_ids=[14309])
+        22897: Gain("锋鸣", buff_ids=[14309]),
+        13086: Gain("残楼", skill_ids=[*range(13076, 13085 + 1), *range(18355, 18364 + 1), *range(28468, 28477 + 1)])
     },
     {
         37239: Gain("麾远", skill_ids=[37253], recipes=[(5821, 1)]),
